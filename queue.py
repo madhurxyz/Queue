@@ -32,8 +32,7 @@ class Queue(object):
 
     def enqueue(self, item):
         """Enqueue the given item into this queue"""
-        # TODO: enqueue given item
-        pass
+        self.data.append(item)
 
     def dequeue(self):
         """Return the next item and remove it from this queue,
