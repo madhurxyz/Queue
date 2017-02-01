@@ -1,5 +1,5 @@
 #!python
-from linkedlist import LinkedList
+# from linkedlist import LinkedList
 
 
 class Queue(object):
@@ -39,4 +39,6 @@ class Queue(object):
         or raise ValueError if this queue is empty"""
         if self.is_empty():
             raise ValueError
-        return self.pop(0)
+        next_item = self.peek()
+        del self.data[0]
+        return next_item
