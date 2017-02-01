@@ -17,9 +17,8 @@ class Queue(object):
 
     def is_empty(self):
         """Return True if this queue is empty, or False otherwise"""
-        # TODO: check if empty
-        pass
-
+        return not self.data
+        
     def length(self):
         """Return the number of items in this queue"""
         # TODO: count number of items
