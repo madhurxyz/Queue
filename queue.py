@@ -26,8 +26,7 @@ class Queue(object):
     def peek(self):
         """Return the next item in this queue without removing it,
         or None if this queue is empty"""
-        # TODO: return next item, if any
-        pass
+        return self.data[0]
 
     def enqueue(self, item):
         """Enqueue the given item into this queue"""
