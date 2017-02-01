@@ -73,13 +73,14 @@ class Queue(object):
 
     def enqueue(self, item):
         """Enqueue the given item into this queue"""
-        self.data.append(item)
+        self.append(item)
 
     def dequeue(self):
         """Return the next item and remove it from this queue,
         or raise ValueError if this queue is empty"""
         if self.is_empty():
             raise ValueError
-        next_item = self.peek()
-        del self.data[0]
-        return next_item
+        else:
+            first_item = self.first()
+            self.delete(first_item)
+            return first_item
