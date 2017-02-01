@@ -37,5 +37,6 @@ class Queue(object):
     def dequeue(self):
         """Return the next item and remove it from this queue,
         or raise ValueError if this queue is empty"""
-        # TODO: dequeue next item, if any
-        pass
+        if self.is_empty():
+            raise ValueError
+        return self.pop(0)
