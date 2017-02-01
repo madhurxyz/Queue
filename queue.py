@@ -61,7 +61,7 @@ class Queue(object):
 
     def length(self):
         """Return the number of items in this queue"""
-        return len(self.data)
+        return self.size
 
     def peek(self):
         """Return the next item in this queue without removing it,
