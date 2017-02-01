@@ -68,7 +68,8 @@ class Queue(object):
         or None if this queue is empty"""
         if self.is_empty():
             return None
-        return self.data[0]
+        else:
+            return self.first()
 
     def enqueue(self, item):
         """Enqueue the given item into this queue"""
