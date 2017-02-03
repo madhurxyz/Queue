@@ -22,7 +22,7 @@ class Queue(list):
 
     def length(self):
         """Return the number of items in this queue"""
-        return len(self.data)
+        return len(self)
 
     def peek(self):
         """Return the next item in this queue without removing it,
