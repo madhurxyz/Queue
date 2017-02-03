@@ -40,9 +40,8 @@ class Queue(list):
         or raise ValueError if this queue is empty"""
         if self.is_empty():
             raise ValueError
-        next_item = self.peek()
-        del self.data[0]
-        return next_item
+        else:
+            self.pop[0]
 
 # class Queue(LinkedList):
 #
