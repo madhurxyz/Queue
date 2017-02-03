@@ -29,7 +29,7 @@ class Queue(list):
         or None if this queue is empty"""
         if self.is_empty():
             return None
-        return self.data[0]
+        return self[0]
 
     def enqueue(self, item):
         """Enqueue the given item into this queue"""
