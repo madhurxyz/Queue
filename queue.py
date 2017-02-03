@@ -41,7 +41,7 @@ class Queue(list):
         if self.is_empty():
             raise ValueError
         else:
-            self.pop[0]
+            self.pop(0)
 
 # class Queue(LinkedList):
 #

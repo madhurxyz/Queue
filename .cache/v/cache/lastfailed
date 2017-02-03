@@ -1,1 +1,3 @@
-{}
+{
+  "test_queue.py::QueueTest::test_dequeue": true
+}
