@@ -85,6 +85,6 @@ class Queue(LinkedList):
         if self.is_empty():
             raise ValueError
         else:
-            first_item = self.[0]
+            first_item = self[0]
             self.delete(first_item)
             return first_item
