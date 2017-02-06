@@ -1,1 +1,8 @@
-{}
+{
+  "test_queue.py::QueueTest::test_dequeue": true, 
+  "test_queue.py::QueueTest::test_enqueue": true, 
+  "test_queue.py::QueueTest::test_init": true, 
+  "test_queue.py::QueueTest::test_init_with_list": true, 
+  "test_queue.py::QueueTest::test_length": true, 
+  "test_queue.py::QueueTest::test_peek": true
+}
